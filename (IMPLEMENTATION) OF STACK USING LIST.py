@@ -71,55 +71,32 @@ while repeat == True :
         print("Enter a element to push in stakc: ")
         ele = input()
         new_stack_runtime.push(ele)
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+       
             
     elif oper == 'pop' :
         new_stack_runtime.pop()
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+        
             
     elif oper == 'display' :
         new_stack_runtime.display()
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+        
             
     elif oper == 'isempty' :
         new_stack_runtime.isempty()
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+        
             
     elif oper == 'top' :
         new_stack_runtime.top()
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+        
             
     else :
         print("INVALID OPERATION!")
-        print("WANT TO PERFORM MORE OPERATION?")
-        value_rep = input()
-        if value_rep == 'yes' or value_rep == 'y' :
-            pass
-        else :
-            repeat = False
+    
+    # ASK, IF YOU WANT TO PERFORM MORE OPERATIONS OR NOT
+    print("WANT TO PERFORM MORE OPERATION?")
+    value_rep = input()
+    if value_rep == 'yes' or value_rep == 'y' :
+         pass
+    else :
+         repeat = False
 
